@@ -19,8 +19,9 @@ hr {
   margin-right: 4.3em;
 }
 
-.card {
-  max-width: 30%;
+.card-group {
+  margin-left: 4.3em;
+  margin-right: 4.3em;
 }
 
 .mockup-2 {
@@ -30,7 +31,8 @@ hr {
 }
 
 .card-2 {
-  max-width: 59%;
+  background-position: center center;
+  background-size: cover;
 }
 
 p {
@@ -46,18 +48,43 @@ p {
   margin-left: 4.3em;
 }
 
- a {
-   font-family: "Cutive Mono", monospace;
-   text-align: center;
-   color: #58585a;
- }
+a {
+ font-family: "Cutive Mono", monospace;
+ text-align: center;
+ color: #58585a;
+ text-decoration: none;
+}
+
+.projects {
+  color: #f7f7f7;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
 
  .icons a {
    text-decoration: none;
  }
 
-.over-lay {
-  top: 50%;
-  left: %;
-  color: white;
+.project-title {
+  color: #f7f7f7;
+}
+
+.preview-overlay {
+  background-color: rgba(12, 12, 12, 0);
+  transition: background-color .25s;
+}
+
+.card-group .unit:hover .preview-overlay {
+  background-color: rgba(12, 12, 12, .75);
+}
+
+.projects {
+  color: rgba(0, 0, 0, 0);
+  transition: background-color .25s;
+}
+
+.card-group .unit:hover .projects {
+  color: rgba(225, 225, 225, 1);
 }
