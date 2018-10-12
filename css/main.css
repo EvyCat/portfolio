@@ -1,0 +1,63 @@
+h1 {
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #58585a;
+  display: inline;
+}
+
+ul {
+  font-family: "Cutive Mono", monospace;
+  color: #58585a;
+  display: inline-block;
+}
+
+hr {
+  display: block;
+  border-top: 1px solid #58585a;a
+  margin-bottom: 0.5em;
+  margin-left: 4.3em;
+  margin-right: 4.3em;
+}
+
+.card {
+  max-width: 30%;
+}
+
+.mockup-2 {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-2 {
+  max-width: 59%;
+}
+
+p {
+  font-family: "Cutive Mono", monospace;
+  color: #58585a;
+}
+
+.icons {
+   display: inline;
+ }
+
+.icons-box{
+  margin-left: 4.3em;
+}
+
+ a {
+   font-family: "Cutive Mono", monospace;
+   text-align: center;
+   color: #58585a;
+ }
+
+ .icons a {
+   text-decoration: none;
+ }
+
+.over-lay {
+  top: 50%;
+  left: %;
+  color: white;
+}
