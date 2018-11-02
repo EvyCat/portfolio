@@ -55,6 +55,16 @@ p {
  text-decoration: none;
 }
 
+.a-logo {
+  color: #58585a;
+  text-decoration: none
+}
+
+.a-section {
+  color: #58585a;
+  text-decoration: none
+}
+
 .projects {
   color: #f7f7f7;
 }
