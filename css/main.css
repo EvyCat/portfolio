@@ -100,3 +100,9 @@ nav a:hover {
 .card-group .unit:hover .projects {
   color: rgba(225, 225, 225, 1);
 }
+
+.hand {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
