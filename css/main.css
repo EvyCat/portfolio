@@ -61,6 +61,10 @@ p {
  text-decoration: none;
 }
 
+.logo {
+  text-decoration: none;
+}
+
 .a-logo {
   color: #58585a;
   text-decoration: none
@@ -81,7 +85,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
- .icons a {
+.icons a {
    text-decoration: none;
  }
 
