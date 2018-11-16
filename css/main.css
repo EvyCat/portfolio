@@ -34,6 +34,7 @@ hr {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  min-height: 20em;
 }
 
 p {
@@ -46,7 +47,11 @@ p {
  }
 
 .icons-box{
-  margin-left: 4.3em;
+  padding-left: 4.3em;
+}
+
+.copyright {
+  padding-left: 4.3em;
 }
 
 .a-top {
@@ -106,4 +111,17 @@ nav a:hover {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (min-width: 38em) {
+  .card-2{
+    min-height: 0;
+  }
+
+  .copyright {
+    padding-left: 0;
+    padding-right: 4.3em;
+    text-align: right;
+  }
+
 }
