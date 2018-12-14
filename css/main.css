@@ -26,8 +26,8 @@ hr {
 
 
 .card-group {
-  margin-left: 4.3em;
-  margin-right: 4.3em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .mockup-2 {
@@ -132,6 +132,11 @@ nav a:hover, nav a:focus {
     padding-left: 0;
     padding-right: 4.3em;
     text-align: right;
+  }
+
+  .card-group {
+    margin-left: 4.3em;
+    margin-right: 4.3em;
   }
 
 }
